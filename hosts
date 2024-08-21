@@ -1,0 +1,7 @@
+web1 ansible_host=3.88.135.223 ansible_user=ubuntu ansible_ssh_private_key_file=/home/aryan/Downloads/ansible.pem
+
+[web]
+web1
+
+[server:children]
+web
